@@ -1,0 +1,8 @@
+{
+  "name": "Remix Cafe Vita CMS \u0026 Admin Dashboard",
+  "description": "Complete Firebase-powered Admin Panel and dynamic live updates for Cafe Vita website",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

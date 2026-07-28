@@ -1,0 +1,106 @@
+{
+  "entities": {
+    "settings": {
+      "title": "Settings",
+      "description": "Global website configuration and contact details",
+      "fields": {
+        "websiteName": { "type": "string", "description": "Website title" },
+        "logo": { "type": "string", "description": "Logo URL" },
+        "favicon": { "type": "string", "description": "Favicon URL" },
+        "primaryColor": { "type": "string", "description": "Primary theme color" },
+        "secondaryColor": { "type": "string", "description": "Secondary accent color" },
+        "font": { "type": "string", "description": "Font family name" },
+        "borderRadius": { "type": "string", "description": "Corner border radius" },
+        "buttonStyle": { "type": "string", "description": "Button style class or description" },
+        "footerText": { "type": "string", "description": "Footer summary text" },
+        "copyright": { "type": "string", "description": "Copyright text" },
+        "email": { "type": "string", "description": "Contact email" },
+        "phone": { "type": "string", "description": "Phone number" },
+        "whatsapp": { "type": "string", "description": "WhatsApp contact number" },
+        "address": { "type": "string", "description": "Physical address" },
+        "mapsIframe": { "type": "string", "description": "Google Maps embed iframe URL" },
+        "openingHoursWeekdays": { "type": "string", "description": "Weekday opening hours" },
+        "openingHoursWeekends": { "type": "string", "description": "Weekend opening hours" },
+        "socialLinks": { "type": "object", "description": "Social media URL mappings" }
+      }
+    },
+    "hero": {
+      "title": "Hero",
+      "description": "Hero section content",
+      "fields": {
+        "bgImage": { "type": "string", "description": "Background image URL" },
+        "heading": { "type": "string", "description": "Main banner heading" },
+        "subHeading": { "type": "string", "description": "Subheading paragraph" },
+        "buttonText": { "type": "string", "description": "Primary button text" },
+        "buttonLink": { "type": "string", "description": "Primary button target link" }
+      }
+    },
+    "products": {
+      "title": "Products",
+      "description": "Menu products list",
+      "fields": {
+        "name": { "type": "string", "description": "Product title" },
+        "category": { "type": "string", "description": "Product category slug" },
+        "description": { "type": "string", "description": "Product description" },
+        "price": { "type": "number", "description": "Current price" },
+        "oldPrice": { "type": "number", "description": "Original price before discount" },
+        "image": { "type": "string", "description": "Product image URL" },
+        "available": { "type": "boolean", "description": "In stock availability" },
+        "popular": { "type": "boolean", "description": "Popular badge flag" },
+        "featured": { "type": "boolean", "description": "Featured product flag" }
+      }
+    },
+    "categories": {
+      "title": "Categories",
+      "description": "Menu item categories",
+      "fields": {
+        "name": { "type": "string", "description": "Category display name" },
+        "slug": { "type": "string", "description": "Category filter slug" },
+        "icon": { "type": "string", "description": "Category icon emoji or FontAwesome class" }
+      }
+    },
+    "about": {
+      "title": "About Section",
+      "description": "About Us content",
+      "fields": {
+        "heading": { "type": "string", "description": "Heading" },
+        "description": { "type": "string", "description": "Detailed story description" },
+        "image": { "type": "string", "description": "About section image URL" }
+      }
+    },
+    "reviews": {
+      "title": "Reviews",
+      "description": "Customer testimonials",
+      "fields": {
+        "name": { "type": "string", "description": "Customer name" },
+        "image": { "type": "string", "description": "Customer avatar URL" },
+        "review": { "type": "string", "description": "Testimonial text" },
+        "rating": { "type": "number", "description": "Star rating out of 5" }
+      }
+    },
+    "reservations": {
+      "title": "Reservations",
+      "description": "Table reservation requests",
+      "fields": {
+        "name": { "type": "string", "description": "Customer name" },
+        "email": { "type": "string", "description": "Customer email" },
+        "phone": { "type": "string", "description": "Customer phone" },
+        "date": { "type": "string", "description": "Date" },
+        "time": { "type": "string", "description": "Time" },
+        "guests": { "type": "number", "description": "Guest count" },
+        "status": { "type": "string", "description": "pending, confirmed, completed, cancelled" }
+      }
+    },
+    "orders": {
+      "title": "Orders",
+      "description": "Food order bookings",
+      "fields": {
+        "customerName": { "type": "string", "description": "Customer name" },
+        "phone": { "type": "string", "description": "Phone number" },
+        "address": { "type": "string", "description": "Delivery address" },
+        "totalPrice": { "type": "number", "description": "Total order amount" },
+        "status": { "type": "string", "description": "pending, accepted, rejected, completed" }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+# Cafe Vita Robots.txt
+# Optimized for Google, Bing, Yahoo, DuckDuckGo, Brave Search, Applebot, Baidu, Yandex
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /about.html
+Allow: /menu.html
+Allow: /contact.html
+Allow: /vita.css
+Allow: /vita.js
+Allow: /vita.png.png
+Allow: /og-image.jpg
+Allow: /site.webmanifest
+
+# Disallow indexing sensitive/admin dashboards
+Disallow: /admin.html
+Disallow: /login.html
+Disallow: /admin.css
+Disallow: /admin.js
+Disallow: /login.js
+Disallow: /*?*bookingId=
+
+# Specific Bot Rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+Sitemap: https://cafevita.com/sitemap.xml
